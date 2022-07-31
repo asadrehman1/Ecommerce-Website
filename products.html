@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- navbar -->
+     <section id="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-img">
+                    <a href="#"><img src="images/logo.png"></a>
+                </div>
+                <div class="list" id="links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+                <div class="cover">
+                    <a href="cart.html"><img src="images/cart.png" class="cart"></a>
+                    <a href="#"><img src="images/menu (2).png" class="menu" onclick="openMenu()"></a>
+                </div>
+            </div>
+        </div>
+     </section>
+    
+  <div class="all-products">
+    <div class="container">
+        <div class="row-8">
+            <h4>All Products</h4>
+            <select>
+             <option>Default Sorting</option>
+             <option>Sort by Price</option>
+             <option>Sort by Size</option>
+             <option>Sort by brand name</option>
+            </select>
+        </div>
+    </div>
+  </div>
+
+    <!-- featured products -->
+    <section id="featured">
+        <div class="container">
+            <div class="row-3">
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                       <a href="productdetails.html"> <img src="images/product-12.jpg"></a>
+                    </div>
+                    <p>Black Trouser</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-11.jpg">
+                    </div>
+                    <p>Comfortable Sneakers</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-9.jpg">
+                    </div>
+                    <p>Watch</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-8.jpg">
+                    </div>
+                    <p>Rado Watch</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+         
+
+    <!-- Latest products -->
+    <section id="Latest">
+        <div class="container">
+            <div class="row-3">
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                       <a href="productdetails.html"> <img src="images/product-4.jpg"></a>
+                    </div>
+                    <p>Blue Shirt</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-5.jpg">
+                    </div>
+                    <p>Comfortable Sneakers</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-7.jpg">
+                    </div>
+                    <p>Watch</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-9.jpg">
+                    </div>
+                    <p>Rado Watch</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+            <div class="row-3">
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-12.jpg">
+                    </div>
+                    <p>Black Trouser</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-11.jpg">
+                    </div>
+                    <p>Comfortable Sneakers</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-9.jpg">
+                    </div>
+                    <p>Watch</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-1-featured">
+                    <div class="featuredimage">
+                        <img src="images/product-4.jpg">
+                    </div>
+                    <p>Rado Watch</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="span">
+                    <span>Previous</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>Next</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- footer -->
+
+   <section id="footer">
+    <div class="container">
+        <div class="row-7">
+            <div class="footer-1">
+                <h6>Download Our App</h6>
+                <p>Download App for Android & IOS Mobile Phone</p>
+                <div class="footer-img">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-2">
+                <div class="footer-2-img">
+                    <img src="images/logo-white.png">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officiis beatae repudiandae deleniti, alias minima!</p>
+            </div>
+            <div class="footer-3">
+                <div class="footer-col-3">
+                    <p>Useful Links</p>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-3">
+                <div class="footer-col-3">
+                    <p>Folow Us</p>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+    <script>
+        var menu = document.getElementById("links");
+        function openMenu(){
+            menu.style.width = "100%";
+            menu.style.left = "0";
+        }
+    </script>
+</body>
+</html>
